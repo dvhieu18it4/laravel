@@ -21,7 +21,7 @@ class Seeduser extends Seeder
           'name' =>'Admin',
           'phone' =>'9999999',
           'usertype'=>'admin',
-          'email' =>'admin@me.com',
+          'email' =>'admin123@me.com',
           'password' =>'123456',
           
     
