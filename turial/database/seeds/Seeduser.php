@@ -16,13 +16,13 @@ class Seeduser extends Seeder
     {   
          $time = date('Y-m-d H:i:s');
    			User::create([
-   		    'id' =>'5',
+   		    'id' =>'7',
     
           'name' =>'admin',
           'phone' =>'9999999',
           'usertype'=>'admin',
-          'email' =>'hieuabc@me.com',
-          'password' =>'01230123a',
+          'email' =>'teoem@me.com',
+          'password' =>'$10$T8CbQj1z0mldlzDcSUkOS.xA7nTsirb6C6pPylZUHbKKykOOjqMWS',
           
     
    			]);   
