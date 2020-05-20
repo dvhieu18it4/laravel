@@ -5,7 +5,7 @@ use Illuminate\DB;
 use App\lichtrinh;
 use App\CTchuyendi;
 use App\User;
-class DatabaseSeeder extends Seeder
+class Seeduser extends Seeder
 {
     /**
      * Seed the application's database.
