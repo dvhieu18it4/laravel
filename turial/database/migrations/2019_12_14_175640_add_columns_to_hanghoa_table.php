@@ -13,7 +13,7 @@ class AddColumnsToHanghoaTable extends Migration
      */
     public function up()
     {
-        Schema::table('hanghoa', function (Blueprint $table) {
+        Schema::create('hanghoa', function (Blueprint $table) {
             $table->float('soluong')->nullable()->after('loaihang');
         });
     }
@@ -25,7 +25,7 @@ class AddColumnsToHanghoaTable extends Migration
      */
     public function down()
     {
-        Schema::table('hanghoa', function (Blueprint $table) {
+        Schema::create('hanghoa', function (Blueprint $table) {
             $table->dropcolumn('soluong');
         });
     }
