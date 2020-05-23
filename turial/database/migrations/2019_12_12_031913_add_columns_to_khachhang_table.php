@@ -13,7 +13,7 @@ class AddColumnsToKhachhangTable extends Migration
      */
     public function up()
     {
-        Schema::create('khachhang', function (Blueprint $table) {
+        Schema::table('khachhang', function (Blueprint $table) {
             $table->string('trangthai')->after('noidi');
             $table->string('giatien')->nullable()->after('trangthai');
         });
@@ -26,7 +26,7 @@ class AddColumnsToKhachhangTable extends Migration
      */
     public function down()
     {
-        Schema::create('khachhang', function (Blueprint $table) {
+        Schema::table('khachhang', function (Blueprint $table) {
             $table->dropcolumn('trangthai');
             $table->dropcolumn('giatien');
         });
