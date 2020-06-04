@@ -28,4 +28,5 @@ class Seeduser extends Seeder
    			]);   
          
     }
+    // commit cai nay
 }
